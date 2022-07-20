@@ -26,14 +26,15 @@ repositories {
     mavenCentral()
     google()
     maven { url 'https://jitpack.io' }
+    maven { url = 'https://maven.brott.dev/' }
 }
 
 dependencies {
-
     implementation 'org.jetbrains:annotations:23.0.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     compileOnly 'com.google.android.things:androidthings:1.0'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.acmerobotics.roadrunner:core:0.5.5'
 }
 
 afterEvaluate {

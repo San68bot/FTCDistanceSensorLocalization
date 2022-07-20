@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 19
+        //noinspection OldTargetApi
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+
+    implementation 'org.jetbrains:annotations:23.0.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    compileOnly 'com.google.android.things:androidthings:1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+            }
+        }
+    }
+}

@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9049e179-5352-4395-8c17-c37cd766aa99" name="Changes" comment="RR dependency">
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/DistanceLocalization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/filters/LowPassFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/filters/MedianFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/roadrunner/RoadRunnerUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/androidTest/debug/com/san68bot/distanceSensorLocalization/test/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/debug/com/san68bot/distanceSensorLocalization/BuildConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/AdvancedDistanceLocalization.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/MathUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/sensorData/Sensors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/testing.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/dtest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +50,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -59,13 +69,18 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "13",
     "last_opened_file_path": "/Users/sanjay/FTCDistanceSensorLocalization",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -77,100 +92,27 @@
       <recent name="com.san68bot.distanceSensorLocalization" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="FTCDistanceSensorLocalization" />
+  <component name="RunManager" selected="Kotlin.AdvancedDistanceLocalizationKt">
+    <configuration name="AdvancedDistanceLocalizationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.san68bot.distanceSensorLocalization.AdvancedDistanceLocalizationKt" />
+      <module name="FTCDistanceSensorLocalization.DistanceSensorLocalization.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="filePath" />
+    <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.san68bot.distanceSensorLocalization.TestingKt" />
+      <module name="FTCDistanceSensorLocalization.DistanceSensorLocalization.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="FTCDistanceSensorLocalization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AdvancedDistanceLocalizationKt" />
+        <item itemvalue="Kotlin.TestingKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,6 +125,7 @@
       <workItem from="1658330284070" duration="2175000" />
       <workItem from="1658333805051" duration="306000" />
       <workItem from="1658334284148" duration="4135000" />
+      <workItem from="1658884720227" duration="27446000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1658330772338</created>

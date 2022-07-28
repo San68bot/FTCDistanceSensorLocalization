@@ -1,4 +1,4 @@
-package com.san68bot.distanceSensorLocalization.geometry
+package com.alphago.distanceSensorLocalization.geometry
 
 import kotlin.math.PI
 import kotlin.math.abs

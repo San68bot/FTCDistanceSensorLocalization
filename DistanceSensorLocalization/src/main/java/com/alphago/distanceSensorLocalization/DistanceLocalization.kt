@@ -1,16 +1,17 @@
-package com.san68bot.distanceSensorLocalization
+package com.alphago.distanceSensorLocalization
 
-import com.san68bot.distanceSensorLocalization.geometry.*
-import com.san68bot.distanceSensorLocalization.sensorData.*
+import com.alphago.distanceSensorLocalization.geometry.*
+import com.alphago.distanceSensorLocalization.sensorData.*
 import kotlin.math.*
 
-class AdvancedDistanceLocalization(
+class DistanceLocalization(
     leftSensorPosition: Pose,
     frontSensorPosition: Pose,
     rightSensorPosition: Pose,
-    private val sensorDistanceMaxIN: Double,
+    private val sensorDistanceSafety: Double,
     private val specialConditionThresh: Double = (10.0).toRadians
 ) {
+
     private val ls = LeftSensor(leftSensorPosition)
     private val fs = FrontSensor(frontSensorPosition)
     private val rs = RightSensor(rightSensorPosition)
@@ -43,7 +44,7 @@ class AdvancedDistanceLocalization(
     private fun assignSensors() {
         sensors.forEach { sensor ->
             sensor.apply {
-                inRange = distance in 0.25..sensorDistanceMaxIN
+                inRange = distance in 0.25..sensorDistanceSafety
                 if (inRange) calculateFor = when(closestCardinal((position.rad + theta).contain2PI())) {
                     0.0 -> CalcPosition.X; PI/2.0 -> CalcPosition.Y; PI -> CalcPosition.X; else -> CalcPosition.Y
                 }
@@ -131,7 +132,7 @@ class AdvancedDistanceLocalization(
 }
 
 fun main() {
-    val adl = AdvancedDistanceLocalization(
+    val adl = DistanceLocalization(
         Pose(-8.25, 7.5, PI),
         Pose(0.0, 8.0, PI/2.0),
         Pose(8.25, 7.5, 0.0),

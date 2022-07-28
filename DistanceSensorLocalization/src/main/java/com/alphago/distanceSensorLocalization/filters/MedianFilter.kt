@@ -1,4 +1,4 @@
-package com.san68bot.distanceSensorLocalization.filters
+package com.alphago.distanceSensorLocalization.filters
 
 class MedianFilter(private val n: Int) {
     private val window = ArrayList<Double>()

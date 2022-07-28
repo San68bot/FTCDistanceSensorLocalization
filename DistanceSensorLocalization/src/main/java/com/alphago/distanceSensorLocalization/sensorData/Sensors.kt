@@ -1,6 +1,6 @@
-package com.san68bot.distanceSensorLocalization.sensorData
+package com.alphago.distanceSensorLocalization.sensorData
 
-import com.san68bot.distanceSensorLocalization.geometry.Pose
+import com.alphago.distanceSensorLocalization.geometry.Pose
 import kotlin.math.*
 
 enum class CalcPosition { X, Y, Nothing }

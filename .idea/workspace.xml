@@ -4,25 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9049e179-5352-4395-8c17-c37cd766aa99" name="Changes" comment="RR dependency">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/androidTest/debug/com/san68bot/distanceSensorLocalization/test/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/debug/com/san68bot/distanceSensorLocalization/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/AdvancedDistanceLocalization.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/MathUtils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/sensorData/Sensors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/testing.kt" afterDir="false" />
+    <list default="true" id="9049e179-5352-4395-8c17-c37cd766aa99" name="Changes" comment="Major Changes">
+      <change afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/jtest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/androidTest/debug/com/san68bot/distanceSensorLocalization/test/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/build/generated/source/buildConfig/debug/com/san68bot/distanceSensorLocalization/BuildConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/AdvancedDistanceLocalization.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/DistanceLocalization.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/filters/LowPassFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/filters/LowPassFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/filters/MedianFilter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/filters/MedianFilter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/MathUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/geometry/MathUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Point.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/geometry/Point.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/geometry/Pose.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/geometry/Pose.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/roadrunner/RoadRunnerUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/roadrunner/RoadRunnerUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/san68bot/distanceSensorLocalization/sensorData/Sensors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/DistanceSensorLocalization/src/main/java/com/alphago/distanceSensorLocalization/sensorData/Sensors.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,7 @@
       <list>
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -77,6 +78,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -88,20 +90,23 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/DistanceSensorLocalization/src/main" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.alphago" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="com.san68bot.distanceSensorLocalization" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.AdvancedDistanceLocalizationKt">
-    <configuration name="AdvancedDistanceLocalizationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.san68bot.distanceSensorLocalization.AdvancedDistanceLocalizationKt" />
+    <configuration name="DistanceLocalizationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.alphago.distanceSensorLocalization.DistanceLocalizationKt" />
       <module name="FTCDistanceSensorLocalization.DistanceSensorLocalization.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.san68bot.distanceSensorLocalization.TestingKt" />
+      <option name="MAIN_CLASS_NAME" value="com.alphago.distanceSensorLocalization.TestingKt" />
       <module name="FTCDistanceSensorLocalization.DistanceSensorLocalization.main" />
       <method v="2">
         <option name="Make" enabled="true" />

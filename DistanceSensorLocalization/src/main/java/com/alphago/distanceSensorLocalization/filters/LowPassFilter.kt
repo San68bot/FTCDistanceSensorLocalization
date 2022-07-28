@@ -1,4 +1,4 @@
-package com.san68bot.distanceSensorLocalization.filters
+package com.alphago.distanceSensorLocalization.filters
 
 class LowPassFilter(@JvmField var gain: Double) {
     private var previousEstimate = 0.0
